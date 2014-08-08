@@ -1,0 +1,107 @@
+/* DON'T USE THIS FILE, I'VE COMBINED ALL OF THE CSS TOGETHER IN "IMAGESITE.CSS"*/
+a:link
+{
+color:red;
+
+}
+
+
+#nav
+{
+/*background-color: ;*/
+height: 70px;
+/*width:100%;*/
+
+
+
+}
+
+
+
+#login
+{
+
+display: inline;
+position: absolute;
+right:10px;
+text-align:right;
+width: 155px;
+/*background-color:;*/
+
+
+
+}
+
+#submitL
+{
+
+width:75;
+}
+
+
+#registerL
+{
+
+width:75;
+
+}
+#right
+{
+display: inline;
+position: absolute;
+
+left:40%;
+text-align:center;
+width: 300px;
+background-color: ;
+
+
+}
+
+#left
+{
+display: inline;
+position: absolute;
+width:300px;
+font-size:45px;
+font-weight: bold;
+background-color:;
+}
+
+#hrN{
+color: black;
+height:2px;
+background: black;
+border: 0;
+
+
+
+}
+
+#upload{
+
+display: inline;
+position: absolute;
+text-align: center;
+top: 30%;
+left: 40%;
+width:325px;
+height: 300px;
+background: red;
+
+
+
+
+
+}
+
+#bottom{
+display: inline;
+position: absolute;
+text-align: center;
+background: red;
+width: 100px;
+height:100px;
+
+
+}

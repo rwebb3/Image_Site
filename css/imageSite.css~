@@ -1,0 +1,150 @@
+/* remove default browser css*/
+body{
+	margin:0;
+	padding:0;
+	text-align:center; /*compensate for IE BS*/
+}
+/* causes main div tag to be centered */
+#main{
+	background:DarkGray;
+	text-align:left;
+	width:960px;
+	float:center;
+}
+/*moves new images to the right of the most popular image*/
+#newest_images{
+	float:right;
+	margin-right:50px;
+}
+#newest_images h2{
+	float:right;
+}
+#most_popular{
+	margin-left:30px;
+	float:left;
+}
+/* causes images to be cropped to the same size*/
+div.pop_crop{
+	height:640px;
+	width:640px;
+	overflow:hidden;
+	float:left;
+	display:block;
+	margin-right:5px;
+	border:5px solid black;
+}
+div.new_crop{
+	height:200px;
+	width:200px;
+	overflow:hidden;
+	float:bottom;
+	display:block;
+	margin-bottom:10px;
+	border:5px solid black;
+}
+.infoBar {
+  width:100%;
+  padding:0px;
+  border: 1px solid black;
+  }
+.noBorder {
+  border: none;
+  }
+.comment {
+  border: 1px solid black;
+  }
+.imgTable {
+  margin-left:auto;
+  margin-right:auto;
+  }
+.center{
+  margin-left:auto;
+  margin-right:auto;
+  }
+.alignRight{
+  text-align:right;
+  }
+.alignTop{
+  vertical-align:top;
+  }
+.alignTopRight{
+  text-align:right;
+  vertical-align:top;
+  }
+.greyText{
+  color:grey;
+  }
+.redText{
+  color:red;
+  }
+h1 {
+  text-align:center;
+  color:green;
+  }
+
+a:link {
+  color:red;
+}
+#nav {
+/*background-color: ;*/
+height: 70px;
+/*width:100%;*/
+}
+#login {
+  float:right;
+  right:10px;
+  text-align:right;
+  width: 155px;
+}
+
+#submitL {
+  width:75;
+}
+#registerL {
+  width:75;
+}
+#right {
+  display: inline;
+  position: absolute;
+  left:40%;
+  text-align:center;
+  width: 350px;
+  /*background-color: ;*/
+}
+#left {
+  display: inline;
+  position: absolute;
+  width:300px;
+  font-size:45px;
+  font-weight: bold;
+  /*background-color:;*/
+}
+#hrN {
+  color: black;
+  height:2px;
+  background: black;
+  border: 0;
+}
+#upload {
+  display: inline;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 40%;
+  width:325px;
+  height: 300px;
+  background: red;
+}
+
+#bottom{
+display: inline;
+  position: absolute;
+  text-align: center;
+/*background:;*/
+width:100px;
+left:50%;
+top:90px;
+height:40px;
+
+
+}

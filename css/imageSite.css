@@ -1,0 +1,178 @@
+/* remove default browser css*/
+body{
+	margin:0;
+	padding:0;
+	text-align:center; /*compensate for IE BS*/
+	background:Gray;
+}
+/* causes main div tag to be centered */
+#main{
+
+	float:top;
+	text-align:left;
+	width:960px;
+	margin:0px auto;
+	margin-bottom:5px;
+	display:table;
+}
+#homepage{
+
+	width:100%;
+}
+#gallery{
+	margin:0px auto;
+}
+/*moves new images to the right of the most popular image*/
+#newest_images{
+	float:right;
+	margin-right:4%;
+}
+#newest_images h2{
+	float:right;
+}
+#most_popular{
+	margin-left:4%;
+	float:left;
+}
+/* causes images to be cropped to the same size*/
+div.pop_crop{
+	height:640px;
+	width:640px;
+	overflow:hidden;
+	float:left;
+	display:block;
+	margin-right:5px;
+	border:5px solid black;
+}
+div.gallery_crop{
+	height:175px;
+	width:175px;
+	overflow:hidden;
+	float:left;
+	display:block;
+	margin-right:5px;
+	margin-top:5px;
+	border:5px solid black;
+}
+div.new_crop{
+	height:200px;
+	width:200px;
+	overflow:hidden;
+	float:bottom;
+	display:block;
+	margin-bottom:10px;
+	border:5px solid black;
+}
+.infoBar {
+  width:100%;
+  padding:0px;
+  border: 1px solid black;
+  }
+.noBorder {
+  border: none;
+  }
+.comment {
+  border: 1px solid black;
+  }
+.imgTable {
+  margin-left:auto;
+  margin-right:auto;
+  }
+.center{
+  margin-left:auto;
+  margin-right:auto;
+  }
+.alignRight{
+  text-align:right;
+  }
+.alignTop{
+  vertical-align:top;
+  }
+.alignTopRight{
+  text-align:right;
+  vertical-align:top;
+  }
+.greyText{
+  color:DarkGray;
+  }
+.redText{
+  color:red;
+  }
+h1 {
+  text-align:center;
+  color:green;
+  }
+
+a:link {
+  color:red;
+}
+#nav {
+  height: 70px;
+  display:table-header-group;
+
+}
+#login {
+  float:right;
+  right:10px;
+  text-align:right;
+  width: 155px;
+}
+
+#submitL {
+  width:72;
+}
+#registerL {
+  width:75;
+}
+#right {
+  display: inline;
+  position: absolute;
+  left:40%;
+  text-align:center;
+  width: 350px;
+  /*background-color: ;*/
+}
+#left {
+  display: inline;
+  /*position: absolute;*/
+  width:300px;
+  font-size:45px;
+  font-weight: bold;
+  float:left;
+  /*background-color:;*/
+}
+.goDown{
+	float:bottom;
+}
+#hrN {
+  color: black;
+  height:2px;
+  background: black;
+  border: 0;
+}
+#upload {
+  display: block;
+  padding: 5px;
+  top: 30%;
+  left: 40%;
+  width:325px;
+  height: 300px;
+  background: white;
+  margin:0 auto;
+  border: 5px solid black
+}
+
+#bottom{
+  display: inline;
+  position: absolute;
+  text-align: center;
+/*background:;*/
+width:100px;
+left:50%;
+top:90px;
+height:40px;
+}
+#footer{
+	display:table-footer-group;
+	float:bottom;
+}
